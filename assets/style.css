@@ -1,0 +1,70 @@
+.datetime-localf{
+    transition:.5s;
+}
+.datetime-localf:hover{
+    background-color:rgb(255,241,168);
+    color:white;
+}
+.set-alarm{
+    width: 400px;
+    height: 50px;
+    margin:50px auto;
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+}
+.setalarm{
+    width: 150px;
+    height: 100%;
+    border-radius:7px;
+    font-size:20px;
+    background-color:transparent;
+    transition:.5s;
+}
+.setalarm:hover{
+    background-color:rgb(255,241,168);
+    color:white;
+}
+
+.datetime-localf{
+    width: 200px;
+height: 100%;
+border-radius:7px;
+
+}
+.input-is-empty{
+    position: absolute;
+    bottom:-25px;
+    left:40px;
+    color:red;
+    overflow:hidden;
+    opacity:0;
+}
+.alarm{
+    width: 200px;
+    height: 50px;
+    margin:0 auto;
+
+}
+.alarm-item{
+    padding:20px 30px;
+    border:2px solid black;
+    border-radius:8px;
+    text-align:center;
+    font-size:20px;
+    transition:.5s;
+}
+.alarm-item:hover{
+    background-color:rgb(255,241,168);
+    color:white;
+}
+.stopalarm{
+    width: 190px;
+    margin:30px auto;
+}
+.stopalarm-item{
+   padding:10px 15px;
+    font-size:25px;
+    background-color:transparent;
+    border-radius:10px;
+}
